@@ -1,0 +1,5 @@
+query {{ camelCase componentType }}{{ pascalCase name }}($id: String!, $locale: String) {
+  {{ graphqlQueryPrefix }}{{ pascalCase name }}(id: $id, locale: $locale) {
+    ...CtfComponentFragment
+  }
+}

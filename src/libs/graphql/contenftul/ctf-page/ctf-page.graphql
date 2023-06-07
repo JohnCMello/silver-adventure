@@ -1,0 +1,20 @@
+fragment CtfPageFields on Page {
+  ...CtfComponentFragment
+  internalName
+  slug
+  seo {
+    title
+    description
+  }
+  pageContent {
+    ...CtfComponentFragment
+  }
+}
+
+query CtfPage($slug: String!, $locale: String) {
+  pageCollection(where: { slug: $slug }, locale: $locale, limit: 1) {
+    items {
+      ...CtfPageFields
+    }
+  }
+}

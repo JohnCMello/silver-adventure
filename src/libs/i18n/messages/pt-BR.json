@@ -1,0 +1,11 @@
+{
+  "common": {
+    "homepage": "Casa em BR",
+    "go-back": "voltar"
+  },
+  "error": {
+    "error-no-page-content": "Conteúdo da página não encontrado",
+    "error-no-mapping": "Componente {name} não foi encontrado",
+    "error-page-not-found": "Página não encontrada"
+  }
+}

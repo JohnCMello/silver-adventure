@@ -1,0 +1,9 @@
+query ctfPageContentAboutUsExample($id: String!, $locale: String) {
+  pageContentAboutUsExample(id: $id, locale: $locale) {
+    ...CtfComponentFragment
+    internalName
+    heroBanner {
+      ...CtfComponentFragment
+    }
+  }
+}

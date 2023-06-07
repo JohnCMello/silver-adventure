@@ -1,0 +1,5 @@
+import { CtfResolvedComponentProps } from '@ctf-component-resolver'
+export function {{ pascalCase componentType }}{{pascalCase name}}(props: CtfResolvedComponentProps) {
+  const { typename, id } = props
+  return <div>typename: { typename }, id: { id }</div>
+}

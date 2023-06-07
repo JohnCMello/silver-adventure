@@ -1,0 +1,10 @@
+query appRoutes {
+  pageCollection {
+    items {
+      ... on Page {
+        slug(locale: "pt-BR")
+        en: slug(locale: "en")
+      }
+    }
+  }
+}

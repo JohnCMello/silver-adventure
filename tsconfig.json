@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "baseUrl": ".",
+    "paths": {
+      "@atoms/*": ["src/components/atomic/atoms/*"],
+      "@molecules/*": ["src/components/atomic/molecules/*"],
+      "@organisms/*": ["src/components/atomic/organisms/*"],
+      "@contentful/*": ["src/components/contentful/*"],
+      "@ctf-component-resolver": ["src/components/ctf-component-resolver"],
+      "@layouts/*": ["src/components/layouts/*"],
+      "@pages/*": ["src/pages/*"],
+      "@libs/*": ["src/libs/*"],
+      "@/*": ["./src/*"],
+      "@@/*": ["./*"]
+    },
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
+  },
+  "include": ["**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "next-env.d.ts", ".storybook/*"],
+  "exclude": ["node_modules"]
+}

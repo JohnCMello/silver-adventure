@@ -1,0 +1,6 @@
+fragment CtfComponentFragment on Entry {
+  __typename
+  sys {
+    id
+  }
+}

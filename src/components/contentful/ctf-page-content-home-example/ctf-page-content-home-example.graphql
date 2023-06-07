@@ -1,0 +1,11 @@
+query ctfPageContentHomeExample($id: String!, $locale: String) {
+  pageContentHomeExample(id: $id, locale: $locale) {
+    ...CtfComponentFragment
+    internalName
+    componentsCollection {
+      items {
+        ...CtfComponentFragment
+      }
+    }
+  }
+}

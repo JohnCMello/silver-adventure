@@ -1,0 +1,3 @@
+*.query.ts
+*.hbs
+graphql.types.ts

@@ -1,0 +1,11 @@
+{
+  "common": {
+    "homepage": "Homepage",
+    "go-back": "go back"
+  },
+  "error": {
+    "error-no-page-content": "Page content not found",
+    "error-no-mapping": "Component {name} mapping not found",
+    "error-page-not-found": "Page not found"
+  }
+}

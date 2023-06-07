@@ -1,0 +1,11 @@
+{
+  "common": {
+    "homepage": "Web Sitio",
+    "go-back": "voltar"
+  },
+  "error": {
+    "error-no-page-content": "Contenido de la página no encontrado",
+    "error-no-mapping": "Componente {nombre} no encontrado",
+    "error-page-not-found": "Página não encontrada"
+  }
+}

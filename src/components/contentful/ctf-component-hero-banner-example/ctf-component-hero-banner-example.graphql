@@ -1,0 +1,12 @@
+query ctfComponentHeroBannerExample($id: String!, $locale: String) {
+  componentHeroBannerExample(id: $id, locale: $locale) {
+    title
+    backgroundImage {
+      title
+      description
+      url
+      width
+      height
+    }
+  }
+}
